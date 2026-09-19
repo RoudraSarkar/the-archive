@@ -1,0 +1,32 @@
+country,series,break_year,lo,hi,y0,y1,censored,tier
+Denmark,naming,2005,2004,2006,1985,2025,FALSE,modern
+Denmark,naming,2015,2014,2016,1985,2025,TRUE,modern
+England & Wales,naming,2006,2005,2007,1996,2025,TRUE,modern
+France,naming,1939,1925,1940,1900,2023,FALSE,deep
+France,naming,1976,1975,1979,1900,2023,FALSE,deep
+Ireland,naming,1973,1972,1974,1964,2025,TRUE,deep
+Ireland,naming,2002,2001,2003,1964,2025,FALSE,deep
+New Zealand,naming,1929,1928,1930,1900,2025,FALSE,deep
+New Zealand,naming,1982,1980,1983,1900,2025,FALSE,deep
+Norway,naming,1935,1934,1936,1880,2025,FALSE,deep
+Norway,naming,1973,1972,1974,1880,2025,FALSE,deep
+Scotland,naming,1985,1984,1986,1974,2025,TRUE,deep
+Scotland,naming,2005,2004,2006,1974,2025,FALSE,deep
+USA,naming,1900,1899,1901,1880,2025,FALSE,deep
+USA,naming,1951,1950,1952,1880,2025,FALSE,deep
+Denmark,fertility,1941,1940,1942,1901,2025,FALSE,modern
+Denmark,fertility,1975,1974,1976,1901,2025,FALSE,modern
+England & Wales,fertility,1963,1962,1964,1938,2022,FALSE,modern
+England & Wales,fertility,1977,1976,1978,1938,2022,FALSE,modern
+France,fertility,1919,1918,1921,1892,2024,FALSE,deep
+France,fertility,1972,1971,1975,1892,2024,FALSE,deep
+Ireland,fertility,1968,1967,1969,1950,2023,FALSE,deep
+Ireland,fertility,1995,1994,1996,1950,2023,FALSE,deep
+New Zealand,fertility,1961,1960,1962,1937,2025,FALSE,deep
+New Zealand,fertility,1978,1977,1979,1937,2025,FALSE,deep
+Norway,fertility,1899,1898,1900,1845,2024,FALSE,deep
+Norway,fertility,1942,1941,1943,1845,2024,FALSE,deep
+Scotland,fertility,1966,1965,1967,1945,2022,FALSE,deep
+Scotland,fertility,1977,1976,1978,1945,2022,FALSE,deep
+USA,fertility,1932,1931,1933,1917,2024,FALSE,deep
+USA,fertility,1964,1963,1965,1917,2024,FALSE,deep

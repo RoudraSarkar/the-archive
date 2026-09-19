@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0.0" stop-color="#e5ddcc" stop-opacity="1.0"/>
+    <stop offset="0.55" stop-color="#ded4c0" stop-opacity="1.0"/>
+    <stop offset="1.0" stop-color="#aa9c84" stop-opacity="1.0"/>
+  </linearGradient>
+  <radialGradient id="spot" cx="36%" cy="22%" r="72%">
+    <stop offset="0.0" stop-color="#f3ede0" stop-opacity="0.42"/>
+    <stop offset="0.3" stop-color="#f3ede0" stop-opacity="0.3"/>
+    <stop offset="0.6" stop-color="#f3ede0" stop-opacity="0.14"/>
+    <stop offset="0.82" stop-color="#f3ede0" stop-opacity="0.05"/>
+    <stop offset="1.0" stop-color="#f3ede0" stop-opacity="0.0"/>
+  </radialGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0.0" stop-color="#8a7250" stop-opacity="0.0"/>
+    <stop offset="1.0" stop-color="#6f5a3c" stop-opacity="0.34"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="44%" r="76%">
+    <stop offset="0.52" stop-color="#3a2c17" stop-opacity="0.0"/>
+    <stop offset="0.74" stop-color="#3a2c17" stop-opacity="0.05"/>
+    <stop offset="0.89" stop-color="#3a2c17" stop-opacity="0.12"/>
+    <stop offset="1.0" stop-color="#3a2c17" stop-opacity="0.19"/>
+  </radialGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#spot)"/>
+<rect x="0" y="600" width="1600" height="300" fill="url(#floor)"/>
+<ellipse cx="262.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="235.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="262.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="300.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="273.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="300.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="424.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="397.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="424.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="462.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="435.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="462.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="1062.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="1035.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="1062.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="1100.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="1073.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="1100.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="1396.0" cy="700.0" rx="48.2" ry="9.7" fill="#3a2c17" fill-opacity="0.035"/>
+<rect x="1369.8" y="563.5" width="52.3" height="136.5" rx="26.2" fill="#8f8471" fill-opacity="0.38"/>
+<circle cx="1396.0" cy="548.4" r="24.4" fill="#8f8471" fill-opacity="0.38"/>
+<ellipse cx="191.0" cy="738.0" rx="33.4" ry="6.7" fill="#3a2c17" fill-opacity="0.06"/>
+<rect x="172.9" y="643.4" width="36.3" height="94.6" rx="18.1" fill="#332b23" fill-opacity="0.82"/>
+<circle cx="191.0" cy="632.9" r="16.9" fill="#332b23" fill-opacity="0.82"/>
+<ellipse cx="273.0" cy="738.0" rx="33.4" ry="6.7" fill="#3a2c17" fill-opacity="0.06"/>
+<rect x="254.9" y="643.4" width="36.3" height="94.6" rx="18.1" fill="#332b23" fill-opacity="0.82"/>
+<circle cx="273.0" cy="632.9" r="16.9" fill="#332b23" fill-opacity="0.82"/>
+<ellipse cx="355.0" cy="738.0" rx="33.4" ry="6.7" fill="#3a2c17" fill-opacity="0.06"/>
+<rect x="336.9" y="643.4" width="36.3" height="94.6" rx="18.1" fill="#332b23" fill-opacity="0.82"/>
+<circle cx="355.0" cy="632.9" r="16.9" fill="#332b23" fill-opacity="0.82"/>
+<ellipse cx="437.0" cy="738.0" rx="33.4" ry="6.7" fill="#3a2c17" fill-opacity="0.06"/>
+<rect x="418.9" y="643.4" width="36.3" height="94.6" rx="18.1" fill="#332b23" fill-opacity="0.82"/>
+<circle cx="437.0" cy="632.9" r="16.9" fill="#332b23" fill-opacity="0.82"/>
+<ellipse cx="150.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="130.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="150.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<ellipse cx="232.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="212.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="232.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<ellipse cx="314.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="294.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="314.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<ellipse cx="396.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="376.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="396.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<ellipse cx="478.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="458.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="478.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<text x="150.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.82" text-anchor="middle">Mary</text>
+<text x="232.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.82" text-anchor="middle">Mary</text>
+<text x="314.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.82" text-anchor="middle">Mary</text>
+<text x="396.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.82" text-anchor="middle">Mary</text>
+<text x="478.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.82" text-anchor="middle">Mary</text>
+<rect x="580.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#8f8471" fill-opacity="0.2"/>
+<circle cx="600.0" cy="646.3" r="18.3" fill="#8f8471" fill-opacity="0.2"/>
+<rect x="710.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#8f8471" fill-opacity="0.13"/>
+<circle cx="730.0" cy="646.3" r="18.3" fill="#8f8471" fill-opacity="0.13"/>
+<rect x="830.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#8f8471" fill-opacity="0.07"/>
+<circle cx="850.0" cy="646.3" r="18.3" fill="#8f8471" fill-opacity="0.07"/>
+<ellipse cx="1040.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="1020.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#5a5145" fill-opacity="1.0"/>
+<circle cx="1040.0" cy="646.3" r="18.3" fill="#5a5145" fill-opacity="1.0"/>
+<text x="1040.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.86" text-anchor="middle">Arlo</text>
+<ellipse cx="1210.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="1190.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#8a4034" fill-opacity="1.0"/>
+<circle cx="1210.0" cy="646.3" r="18.3" fill="#8a4034" fill-opacity="1.0"/>
+<text x="1210.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#8a4034" fill-opacity="0.86" text-anchor="middle">Wren</text>
+<ellipse cx="1380.0" cy="760.0" rx="36.1" ry="7.3" fill="#3a2c17" fill-opacity="0.1"/>
+<rect x="1360.4" y="657.6" width="39.3" height="102.4" rx="19.6" fill="#4a4136" fill-opacity="1.0"/>
+<circle cx="1380.0" cy="646.3" r="18.3" fill="#4a4136" fill-opacity="1.0"/>
+<text x="1380.0" y="802" font-family="Georgia, Gelasio, serif" font-size="27" fill="#332b23" fill-opacity="0.86" text-anchor="middle">Zephyr</text>
+<rect width="1600" height="900" fill="url(#vig)"/>
+</svg>
