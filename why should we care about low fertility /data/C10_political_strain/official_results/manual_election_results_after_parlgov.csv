@@ -1,0 +1,15 @@
+country_name,iso3,election_date,party_name_short,popu_list_party,votes,valid_votes,vote_share,source,source_url,accessed
+Netherlands,NLD,2023-11-22,PVV,PVV,2450878,10432726,23.49,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,2026-10-08
+Netherlands,NLD,2023-11-22,FvD,FVD,232963,10432726,2.23,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,2026-10-08
+Netherlands,NLD,2023-11-22,JA21,JA21,71345,10432726,0.68,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,2026-10-08
+Netherlands,NLD,2023-11-22,BBB,BBB,485551,10432726,4.65,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,2026-10-08
+Austria,AUT,2024-09-29,FPÖ,FPÖ,1408512,4882888,28.85,BMI Bundeswahlbehörde final result (16 Oct 2024),https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx,2026-10-08
+Germany,DEU,2025-02-23,AfD,AfD,,,20.8,Bundeswahlleiterin final result (press release 29/25),https://bundeswahlleiterin.de/en/info/presse/mitteilungen/bundestagswahl-2025/29_25_endgueltiges-ergebnis.html,2026-10-08
+Netherlands,NLD,2025-10-29,PVV,PVV,1760966,10571990,16.66,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,2026-10-08
+Netherlands,NLD,2025-10-29,JA21,JA21,628517,10571990,5.95,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,2026-10-08
+Netherlands,NLD,2025-10-29,FvD,FVD,480393,10571990,4.54,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,2026-10-08
+Netherlands,NLD,2025-10-29,BBB,BBB,279916,10571990,2.65,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,2026-10-08
+Denmark,DNK,2026-03-24,DF,DF,,,9.1,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),2026-10-08
+Denmark,DNK,2026-03-24,DD,DD,,,5.8,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),2026-10-08
+Denmark,DNK,2026-03-24,BP,BP,,,2.1,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),2026-10-08
+Sweden,SWE,2026-09-13,SD,SD,,,17.48,Valmyndigheten final results (published 6 Oct 2026),https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026,2026-10-08

@@ -1,0 +1,58 @@
+country_name,election_date,party_name_short,popu_list_party,vote_share,source,source_url,iso3
+Austria,2002-11-24,FPO,FPÖ,10.01,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2006-10-01,FPO,FPÖ,11.0,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2008-09-28,FPO,FPÖ,17.54,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2013-09-29,FPO,FPÖ,20.5,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2017-10-15,FPO,FPÖ,26.0,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2019-09-29,FPO,FPÖ,16.2,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,AUT
+Austria,2024-09-29,FPÖ,FPÖ,28.85,BMI Bundeswahlbehörde final result (16 Oct 2024),https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx,AUT
+Germany,2002-09-22,Rep,Republikaner,0.6,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DEU
+Germany,2017-09-24,AfD,AfD,12.6,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DEU
+Germany,2021-09-26,AfD,AfD,10.34,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DEU
+Germany,2025-02-23,AfD,AfD,20.8,Bundeswahlleiterin final result (press release 29/25),https://bundeswahlleiterin.de/en/info/presse/mitteilungen/bundestagswahl-2025/29_25_endgueltiges-ergebnis.html,DEU
+Denmark,2005-02-08,DF,DF,13.3,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2007-11-13,DF,DF,13.9,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2011-09-15,DF,DF,12.3,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2015-06-18,DF,DF,21.1,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2019-06-05,DF,DF,8.7,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2019-06-05,NB,NB,2.4,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2022-11-01,AE,DD,8.1,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2022-11-01,NB,NB,3.7,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2022-11-01,DF,DF,2.6,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,DNK
+Denmark,2026-03-24,DF,DF,9.1,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),DNK
+Denmark,2026-03-24,DD,DD,5.8,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),DNK
+Denmark,2026-03-24,BP,BP,2.1,Statistics Denmark FVPANDEL,https://api.statbank.dk/v1/data (table FVPANDEL; file DST_FVPANDEL_party_vote_share_all_Denmark_2007-2026.csv),DNK
+Italy,2006-04-09,AN,AN,12.01,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2006-04-09,LN,Lega,4.51,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2008-04-13,LN,Lega,8.29,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2008-04-13,MSFT,MSFT,2.46,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2013-02-25,LN,Lega,4.1,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2013-02-25,FdI,FdI,1.97,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2018-03-04,LN,Lega,17.39,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2018-03-04,FdI,FdI,4.35,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2022-09-25,FdI,FdI,26.0,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Italy,2022-09-25,LN,Lega,8.77,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,ITA
+Netherlands,2006-11-22,PVV,PVV,5.89,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2010-06-09,PVV,PVV,15.45,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2012-09-12,PVV,PVV,10.08,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2017-03-15,PVV,PVV,13.1,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2017-03-15,FvD,FVD,1.8,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2021-03-17,PVV,PVV,10.79,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2021-03-17,FvD,FVD,5.02,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2021-03-17,JA21,JA21,2.37,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2021-03-17,BBB,BBB,1.0,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,NLD
+Netherlands,2023-11-22,PVV,PVV,23.49,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,NLD
+Netherlands,2023-11-22,BBB,BBB,4.65,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,NLD
+Netherlands,2023-11-22,FvD,FVD,2.23,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,NLD
+Netherlands,2023-11-22,JA21,JA21,0.68,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20231122,NLD
+Netherlands,2025-10-29,PVV,PVV,16.66,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,NLD
+Netherlands,2025-10-29,JA21,JA21,5.95,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,NLD
+Netherlands,2025-10-29,FvD,FVD,4.54,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,NLD
+Netherlands,2025-10-29,BBB,BBB,2.65,Kiesraad verkiezingsuitslagen.nl,https://www.verkiezingsuitslagen.nl/verkiezingen/detail/TK20251029,NLD
+Sweden,2002-09-15,SD,SD,1.44,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2006-09-17,SD,SD,2.9,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2010-09-19,SD,SD,5.7,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2014-09-14,SD,SD,12.86,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2018-09-09,SD,SD,17.53,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2022-09-11,SD,SD,20.54,ParlGov development snapshot (Nov 2023),https://www.parlgov.org/,SWE
+Sweden,2026-09-13,SD,SD,17.48,Valmyndigheten final results (published 6 Oct 2026),https://www.val.se/english/election-results/elections-to-the-riksdag-and-regional-and-municipal-councils/election-results-2026,SWE
