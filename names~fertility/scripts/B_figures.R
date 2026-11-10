@@ -4,11 +4,6 @@
 # Reads out/*.csv and nothing else. If a figure needs a number that isn't in
 # out/, that number belongs in A_analysis.R — do not compute it here.
 #
-# House style: theme_archives(). The categorical palette holds FOUR colours and
-# deliberately excludes terracotta, which is reserved for the salient series.
-# So: never more than four categories on one panel. Where there are more
-# countries than that, we facet and highlight one in terracotta against warm
-# grey — which is what the theme wants anyway.
 #
 # Run:  source("scripts/B_figures.R")   (working dir = project root)
 # =============================================================================
@@ -101,7 +96,7 @@ if (have("index_headline.csv")) {
 } else skip("fig03", "index_headline.csv missing")
 
 # ---------------------------------------------------------------------------
-# Figure 4 — the sex split, shown once (per the headline-averages decision).
+# Figure 4 — the sex split
 # ---------------------------------------------------------------------------
 if (have("index_by_country_year_sex.csv")) {
   d <- grab("index_by_country_year_sex.csv")
@@ -247,7 +242,6 @@ if (have("index_headline.csv")) {
 # ---------------------------------------------------------------------------
 # Figure 9 — THE CENTRAL CHART. The two series, together, per country.
 # Both indexed to 100 at the first year of overlap so one axis carries both;
-# what matters is the shape, not the level. Dated breaks marked.
 # ---------------------------------------------------------------------------
 if (have("series_joined.csv")) {
   sj <- grab("series_joined.csv")[tier == "deep"]
@@ -282,10 +276,7 @@ if (have("series_joined.csv")) {
 } else skip("fig09", "series_joined.csv missing - re-run A")
 
 # ---------------------------------------------------------------------------
-# Figure 10 — the same manoeuvre as the FT smartphone chart, shown honestly.
-# Each country re-centred on its own naming break; fertility plotted against
-# event time. Included so the piece can make the point that this kind of
-# alignment always looks convincing.
+# Figure 10 —
 # ---------------------------------------------------------------------------
 if (have("event_time.csv")) {
   et <- grab("event_time.csv")
