@@ -17,7 +17,7 @@ OUT = os.path.join(ROOT, "out")
 os.makedirs(OUT, exist_ok=True)
 WPP = os.path.join(DATA, "shared_UN_WPP_2024")
 
-FOCUS = ["JPN", "KOR", "ITA", "DEU", "GBR", "USA"]   # anchor countries (agreed 3 Oct)
+FOCUS = ["JPN", "KOR", "ITA", "DEU", "GBR", "USA"]   # anchor countries
 
 
 def save(df, name, note=""):

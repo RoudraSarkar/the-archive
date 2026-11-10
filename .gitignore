@@ -1,0 +1,11 @@
+# Licensed microdata: never commit
+*.dta
+*/UKDA-*/
+personality~fertility/cache/
+*wvs_filtered.csv
+
+# System and build clutter
+.DS_Store
+__pycache__/
+_trash/
+_to_delete/

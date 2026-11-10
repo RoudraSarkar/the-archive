@@ -10,16 +10,17 @@ the code is right and I want to know.
 
 ## Sources
 
-All data is public. Where a source requires free registration, that is noted in
-the relevant folder. Raw downloads are included where licensing permits;
-otherwise the retrieval script and access date are given.
+Public data is included where licensing permits. Licensed survey data (for
+example the UK Data Service cohort studies and World Values Survey microdata)
+is not included and must be obtained from the provider; the scripts document
+which files they expect.
 
 Routinely used: Eurostat · OECD · UN World Population Prospects · World Bank ·
 World Values Survey · European Social Survey · V-Dem
 
 ## Method notes
 
-- Analysis in R. Scripts are numbered in execution order.
+- Analysis in R and Python. Scripts are numbered in execution order.
 - Figures are produced by the scripts, not edited afterwards.
 - Where a series changes definition mid-period, or where a denominator comes
   from a different instrument than the numerator, that is documented in the

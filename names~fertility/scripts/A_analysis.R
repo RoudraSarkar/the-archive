@@ -27,7 +27,7 @@ CFG <- list(
   headline   = "top10_cov",  # validated at r = 0.992 vs Norway truth
   wpp_last_obs = 2023,
   fert_priority = c("HFD","HFC","WPP"),  # registers win; WPP fills gaps
-  fert_priority = c("HFD","HFC","WPP"),  # register series win; WPP fills gaps  # WPP2024 labels estimates AND projections "Medium";
+  # WPP2024 labels estimates AND projections "Medium";
                         # everything after this year is a forecast, not data.
   # Countries whose name series is deep enough to contain a fertility break.
   deep       = c("USA","Norway","France","New Zealand","Ireland","Scotland"),
