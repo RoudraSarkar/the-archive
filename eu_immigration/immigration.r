@@ -1,12 +1,8 @@
-# ============================================================
-# Visualisations: Composition of European migration
-# For "the archives" — psychology · demographics · geopolitics
-# ============================================================
-install.packages("ggtext")  # if not already installed
+
+install.packages("ggtext")  
 library(tidyverse)
 library(scales)
-library(ggtext)   # for markdown in titles
-# install.packages(c("tidyverse", "scales", "ggtext")) if needed
+library(ggtext)   
 
 # ------------------------------------------------------------
 # 0. PATHS
@@ -21,8 +17,7 @@ long <- read_csv(file.path(data_path, "migration_composition_long.csv"))
 # ------------------------------------------------------------
 # 1. THEME & PALETTE
 # ------------------------------------------------------------
-# Palette ties to your Substack identity:
-# cream background, charcoal text, terracotta accent
+
 archives_cream     <- "#F1EBDF"
 archives_charcoal  <- "#2A231C"
 archives_terracota <- "#8C3A2F"
@@ -30,10 +25,7 @@ archives_taupe     <- "#C9BFA9"
 archives_brown     <- "#6B5D4F"
 archives_grey      <- "#8A7C6D"
 
-# Five-category palette: ordered light-to-dark for stacked charts.
-# Asylum/Protection sits in the terracotta accent so it stands out
-# without dominating; this is the politically loaded category and
-# making it visually distinct serves the reader.
+
 category_colours <- c(
   "Employment"        = "#3A4A5C",   # deep slate blue
   "Family"            = "#7A8B6F",   # muted sage
@@ -96,9 +88,7 @@ src_caption <- paste(
 # ------------------------------------------------------------
 # 2. PREP: pick countries for cross-country chart
 # ------------------------------------------------------------
-# Filter to the most recent complete year (2023 — 2024 partial in some countries).
-# Then pick countries with substantial volumes; drop micro-states whose
-# percentages are statistical artefacts on tiny base numbers.
+
 focus_countries <- c(
   "Germany", "France", "Spain", "Italy", "Netherlands",
   "Sweden", "Belgium", "Austria", "Ireland", "Poland",
@@ -152,11 +142,7 @@ ggsave(file.path(out_path, "fig1_composition_2023.png"),
 # ------------------------------------------------------------
 # FIGURE 2 & 3: Country time series
 # ------------------------------------------------------------
-# Pick two countries with contrasting stories. After looking at the
-# data, two strong candidates: Germany (asylum-dominated narrative,
-# but composition has shifted dramatically) and Poland (employment-
-# driven, transformed by Ukrainian displacement).
-# Adjust these once you've eyeballed Figure 1.
+
 
 ts_country <- function(country_name, title_override, subtitle_override) {
   d <- long %>%
@@ -217,9 +203,7 @@ ggsave(file.path(out_path, "fig3_poland_timeseries.png"),
 # ------------------------------------------------------------
 # FIGURE 4: Total volumes (so readers see scale, not just %)
 # ------------------------------------------------------------
-# A common criticism of percentage-only charts: a 30% share in a
-# small country is fewer people than a 10% share in Germany.
-# This chart shows absolute volumes for context.
+
 
 vols_2023 <- wide %>%
   filter(year == 2023, country %in% focus_countries) %>%
@@ -248,9 +232,7 @@ fig4 <- ggplot(vols_2023, aes(x = Total, y = country)) +
 ggsave(file.path(out_path, "fig4_total_volumes_2023.png"),
        fig4, width = 9, height = 6.5, dpi = 300, bg = archives_cream)
 
-# ------------------------------------------------------------
-# Done. Open the figures folder.
-# ------------------------------------------------------------
+
 message("Charts written to: ", out_path)
 
 
@@ -271,9 +253,7 @@ library(ggtext)
 
 # ------------------------------------------------------------
 # 0. PATHS — assumes you've already loaded the theme and palette
-#    from visualise_migration.R. If running fresh, copy the
-#    theme_archives() function and palette objects from there.
-# ------------------------------------------------------------
+#    from visualise_migration.R. 
 data_path <- "/Users/whiz/Desktop/the archive/eu_immigration/data/processed data"
 raw_path  <- "/Users/whiz/Desktop/the archive/eu_immigration/data/raw data"  # adjust if different
 out_path  <- "/Users/whiz/Desktop/the archive/eu_immigration/figures"
@@ -281,9 +261,7 @@ out_path  <- "/Users/whiz/Desktop/the archive/eu_immigration/figures"
 wide <- read_csv(file.path(data_path, "migration_composition_wide.csv"))
 long <- read_csv(file.path(data_path, "migration_composition_long.csv"))
 
-# You'll need the raw asylum decisions file for the recognition rate
-# (we need both positive AND negative decisions, and the merged file
-# only kept positives). Adjust path to wherever asylum_dec.csv lives.
+
 asylum_dec <- read_csv(file.path(raw_path, "asylum_dec.csv"))
 
 # ------------------------------------------------------------
