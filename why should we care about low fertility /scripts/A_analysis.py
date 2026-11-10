@@ -204,7 +204,7 @@ def c04_living_alone():
     EU27 = set("AT BE BG CY CZ DE DK EE EL ES FI FR HR HU IE IT LT LU LV MT NL PL PT RO SE SI SK".split())
     out["eu27_member"] = out.geo.isin(EU27)          # for the EU reference band (Eurostat file also has EFTA/candidates)
     save(out.sort_values(["geo", "sex", "year"]), "c04_living_alone_65plus.csv")
-    # EU member-state spread for the chart band (agreed: middle 80% = 10th-90th percentile, not min-max,
+    # EU member-state spread for the chart band (middle 80% = 10th-90th percentile rather than min-max,
     # because SK (break 2022) and LT (60% by 2025) would drive a min-max band). Years with all 27 members only.
     m = out[(out.sex == "total") & out.eu27_member]
     band = (m.groupby("year").pct_65plus_alone
@@ -815,7 +815,7 @@ def c10_political_strain():
     rows = []
     for f in sorted(glob.glob(os.path.join(ebd, "STD*"))):
         rnd = int(os.path.basename(f)[3:6])
-        if rnd < 62:                 # agreed: start autumn 2004 (rounds 57-61 use an older layout)
+        if rnd < 62:                 # start at autumn 2004 (rounds 57-61 use an older layout)
             continue
         o = parse_round(f)
         assert o is not None, f"round {rnd} not parsed"
